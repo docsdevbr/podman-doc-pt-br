@@ -27,7 +27,7 @@ project.
 
 ## License
 
-Copyright (c) 2025 Podman Container Tools, a Series of LF Projects, LLC.<br/>
+Copyright (c) 2026 Podman Container Tools, a Series of LF Projects, LLC.<br/>
 Podman Container Tools™ is a trademark of LF Projects, LLC.
 
 Documentation licensed under the [Apache License, Version 2.0][license].<br/>
