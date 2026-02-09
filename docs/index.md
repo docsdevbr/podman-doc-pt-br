@@ -236,9 +236,9 @@ integração em seu ambiente, consulte o arquivo
 [README.md](https://github.com/containers/podman/blob/main/test/README.md) dos
 testes de integração.
 
-## Documentação do Podman em Python
+## Documentação do Podman Python
 
-A documentação do SDK do Podman em Python está localizada
+A documentação do SDK do Podman Python está localizada
 [aqui](https://podman-py.readthedocs.io/en/latest/index.html).
 
 ## Mais informações
