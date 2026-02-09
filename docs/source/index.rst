@@ -17,10 +17,10 @@ O que é o Podman?
 
 O Podman_ é uma ferramenta nativa do Linux, de código aberto e sem daemon,
 projetada para facilitar a localização, execução, construção, compartilhamento e
-implantação de aplicações usando `contêineres`_ e `imagens de contêiner`_ da
-Open Container Initiative (OCI_).
+implantação de aplicações usando `contêineres`_ e `imagens de contêiner`_ Open
+Container Initiative (OCI_).
 O Podman fornece uma interface de linha de comando (CLI) familiar para qualquer
-pessoa que já tenha usado a `Docker Contêiner Engine`_.
+pessoa que já tenha usado a `Docker Container Engine`_.
 A maioria das pessoas usuárias pode simplesmente criar um alias do Docker para o
 Podman (`alias docker=podman`) sem problemas.
 Semelhante a outras `engines de contêiner`_ comuns (Docker, CRI-O, containerd),
@@ -33,13 +33,13 @@ indistinguíveis daqueles criados por qualquer outra engine de contêiner comum.
 Os contêineres controlados pelo Podman podem ser executados pelo usuário root ou
 por um usuário sem privilégios.
 O Podman gerencia todo o ecossistema de contêineres, incluindo pods,
-contêineres, imagens de contêineres e volumes de contêineres, utilizando a
+contêineres, imagens de contêiner e volumes de contêiner, utilizando a
 biblioteca libpod_.
 O Podman é especializado em todos os comandos e funções que auxiliam na
-manutenção e modificação de imagens de contêineres OCI, como o download e a
+manutenção e modificação de imagens de contêiner OCI, como o download e a
 criação de tags.
-Ele permite criar, executar e manter esses contêineres e imagens de contêineres
-em um ambiente de produção.
+Ele permite criar, executar e manter esses contêineres e imagens de contêiner em
+um ambiente de produção.
 
 Existe uma API RESTful para gerenciar contêineres.
 Também temos um cliente Podman remoto que pode interagir com o serviço RESTful.
@@ -48,12 +48,12 @@ O serviço RESTful é compatível apenas com Linux.
 
 Se você é completamente iniciante em contêineres, recomendamos que consulte a
 :doc:`Introdução`.
-Para pessoas usuárias avançadas ou aquelas que vêm do Docker, consulte nossos
+Pessoas usuárias avançadas ou aquelas que vêm do Docker podem consultar nossos
 :doc:`Tutoriais`.
-Para pessoas usuárias avançadas e colaboradoras, você pode obter informações
-detalhadas sobre a CLI do Podman consultando nossa página de :doc:`Comandos`.
-Por fim, para pessoas desenvolvedoras que desejam saber como interagir com a API
-do Podman, consulte nossa :doc:`Referência` da documentação da API.
+Pessoas usuárias avançadas e colaboradoras podem obter informações detalhadas
+sobre a CLI do Podman consultando nossa página de :doc:`Comandos`.
+Por fim, pessoas desenvolvedoras que desejam saber como interagir com a API do
+Podman podem consultar nossa :doc:`Referência` da documentação da API.
 
 .. toctree::
    :maxdepth: 2
