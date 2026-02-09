@@ -221,13 +221,14 @@ Você pode verificar a exclusão do contêiner executando `podman ps -a`.
 Para um guia mais detalhado sobre redes e DNS em contêineres, consulte o
 [guia de rede](https://github.com/containers/podman/blob/main/docs/tutorials/basic_networking.md).
 
-## Checkpoint, migração e restauração de contêineres
+## Ponto de verificação, migração e restauração de contêineres
 
-Criar um checkpoint em um contêiner o interrompe enquanto grava o estado de
-todos os processos no contêiner em disco.
+Criar um ponto de verificação em um contêiner o interrompe enquanto grava o
+estado de todos os processos no contêiner em disco.
 Com isso, um contêiner pode ser posteriormente migrado e restaurado, executando
-exatamente no mesmo ponto no tempo do checkpoint.
-Para mais detalhes, consulte as [instruções de checkpoint](docs/checkpoint).
+exatamente no mesmo ponto no tempo do ponto de verificação.
+Para mais detalhes, consulte as
+[instruções do ponto de verificação](docs/checkpoint).
 
 ## Testes de integração
 
