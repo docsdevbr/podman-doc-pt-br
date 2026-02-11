@@ -20,12 +20,12 @@ projetada para facilitar a localização, execução, construção, compartilham
 implantação de aplicações usando `contêineres`_ e `imagens de contêiner`_ Open
 Container Initiative (OCI_).
 O Podman fornece uma interface de linha de comando (CLI) familiar para qualquer
-pessoa que já tenha usado a `Docker Container Engine`_.
+pessoa que já tenha usado a `engine de contêiner`_ do Docker.
 A maioria das pessoas usuárias pode simplesmente criar um alias do Docker para o
 Podman (`alias docker=podman`) sem problemas.
 Semelhante a outras `engines de contêiner`_ comuns (Docker, CRI-O, containerd),
-o Podman depende de um tempo de execução de contêiner compatível com OCI (runc,
-crun, runv, etc.) para interagir com o sistema operacional e criar os
+o Podman depende de um `tempo de execução de contêiner`_ compatível com OCI
+(runc, crun, runv, etc.) para interagir com o sistema operacional e criar os
 contêineres em execução.
 Isso torna os contêineres em execução criados pelo Podman praticamente
 indistinguíveis daqueles criados por qualquer outra engine de contêiner comum.
