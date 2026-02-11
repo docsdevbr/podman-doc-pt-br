@@ -39,7 +39,7 @@ instalado no sistema.
 Para criar um ponto de verificação do contêiner, use:
 
 ```bash
-sudo podman container checkpoint <container_id>
+sudo podman container checkpoint <id-do-contêiner>
 ```
 
 ## Restaurando o contêiner
@@ -52,7 +52,7 @@ em que foi salvo.
 Para restaurar o contêiner, use:
 
 ```bash
-sudo podman container restore <container_id>
+sudo podman container restore <id-do-contêiner>
 ```
 
 Após ser restaurado, o contêiner voltará a responder às solicitações como antes
@@ -73,8 +73,8 @@ saída.
 No sistema de origem:
 
 ```bash
-sudo podman container checkpoint <container_id> -e /tmp/checkpoint.tar.zst
-scp /tmp/checkpoint.tar.zst <destination_system>:/tmp
+sudo podman container checkpoint <id-do-contêiner> -e /tmp/checkpoint.tar.zst
+scp /tmp/checkpoint.tar.zst <sistema-de-destino>:/tmp
 ```
 
 No sistema de destino:
