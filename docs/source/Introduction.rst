@@ -126,7 +126,7 @@ Isso permite que as pessoas usuárias encontrem, executem, criem, compartilhem e
 implantem contêineres onde quiserem.
 O Podman e outras `engines de contêiner`_, como CRI-O, Docker ou containerd,
 podem criar e consumir imagens de contêineres do docker.io, quay.io, de um
-registro local ou até mesmo de um fornecido por um provedor de nuvem.
+registro local ou até mesmo de um registro fornecido por um provedor de nuvem.
 O formato de imagem OCI facilita esse ecossistema por meio de um padrão único.
 
 Por exemplo, se quiséssemos compartilhar nossa imagem de contêiner `hello`
@@ -141,8 +141,8 @@ Entrada::
     Password: ********
     Login Succeeded!
 
-Em seguida, marque a imagem para que possamos publicá-la em nossa conta de
-pessoa usuária::
+Em seguida, crie uma tag da imagem para que possamos publicá-la em nossa conta
+de usuário::
 
     podman tag localhost/hello quay.io/USERNAME/hello
 
@@ -174,9 +174,9 @@ Saída::
     ...
 
 Em resumo, o Podman facilita a busca, execução, criação e compartilhamento de
-contêineres.
+imagens.
 
-* Encontre: seja para encontrar um contêiner no dockerhub.io ou quay.io, em um
+* Encontre: seja para encontrar uma imagem no dockerhub.io ou quay.io, em um
   servidor de registro interno ou diretamente de um fornecedor, alguns comandos
   `podman search`_ e `podman pull`_ tornam tudo fácil.
 * Execute: é fácil usar imagens pré-construídas com tudo o que é necessário para
@@ -184,8 +184,8 @@ contêineres.
   distribuição Linux com o comando `podman run`_.
 * Crie: criar novas camadas com pequenos ajustes ou grandes reformulações é
   fácil com `podman build`_.
-* Compartilhe: o Podman permite que você envie seus contêineres recém-criados
-  para onde quiser com um único comando `podman push`_.
+* Compartilhe: o Podman permite que você envie suas imagens recém-criadas para
+  onde quiser com um único comando `podman push`_.
 
 Para obter mais instruções sobre casos de uso, consulte nossa página de
 :doc:`Tutoriais`.
