@@ -53,12 +53,10 @@ The original work was translated from English into Brazilian Portuguese.
 
 [license]: LICENSE
 
-[page]: https://pt.docs.dev.br/tech/p/podman/
+[page]: https://pt.docs.dev.br/tech/p/podman/index.html
 
 [readme-en]: README.EN.md
 
 [readme-pt-br]: README.md
 
-[sponsor]: https://en.docs.dev.br/sponsor
-
-[support]: https://github.com/docsdevbr/.github/blob/main/CODE_OF_CONDUCT.EN.md
+[sponsor]: https://en.docs.dev.br/sponsor.html

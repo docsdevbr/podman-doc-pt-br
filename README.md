@@ -53,10 +53,10 @@ A obra original foi traduzida do inglês para o português brasileiro.
 
 [license]: LICENSE
 
-[page]: https://pt.docs.dev.br/tech/p/podman/
+[page]: https://pt.docs.dev.br/tech/p/podman/index.html
 
 [readme-en]: README.EN.md
 
 [readme-pt-br]: README.md
 
-[sponsor]: https://pt.docs.dev.br/sponsor
+[sponsor]: https://pt.docs.dev.br/sponsor.html
